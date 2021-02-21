@@ -148,7 +148,7 @@ body {
   padding: 115px 0; }
 
 .container {
-  width: 660px;
+  width: 900px;
   position: relative;
   margin: 0 auto; }
 
@@ -200,7 +200,7 @@ body {
   margin-bottom: 20px; }
 
 .form-input {
-  width: 100%;
+  width: 49%;
   border: 1px solid #ebebeb;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -355,5 +355,12 @@ input[type=checkbox]:not(old):checked + label > span:before {
 @media screen and (max-width: 480px) {
   .signup-content {
     padding: 50px 25px; } }
+
+@media screen and (max-width: 768px) {
+  .form-input{
+    width: 100%;
+    margin: 10px;
+  }
+}   
 
 /*# sourceMappingURL=style.css.map */
