@@ -199,8 +199,16 @@ body {
   overflow: hidden;
   margin-bottom: 20px; }
 
-.form-input {
-  width: 49%;
+  .form-input-1{
+    width: 100%;
+  }
+
+  .form-input{
+    width: 49.5%;
+  }
+
+.form-input ,.form-input-1{
+  
   border: 1px solid #ebebeb;
   border-radius: 5px;
   -moz-border-radius: 5px;
