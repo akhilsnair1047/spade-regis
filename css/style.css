@@ -365,9 +365,9 @@ input[type=checkbox]:not(old):checked + label > span:before {
     padding: 50px 25px; } }
 
 @media screen and (max-width: 768px) {
-  .form-input{
-    width: 100%;
-    margin: 10px;
+  .form-input, .form-input-1{
+    width: 95%;
+    margin-top: 10px;
   }
 }   
 
